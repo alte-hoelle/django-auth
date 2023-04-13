@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "django-hell-auth"
-version = "0.0.2"
+version = "0.0.3"
 description = "hell gitlab auth for django"
 authors = [
     "David Bauer <hausprojekt@debauer.de>",
@@ -15,6 +15,7 @@ python = "^3.10"
 Django = "^4.0.5"
 requests = "^2.28.2"
 types-requests = "^2.28.11.17"
+pre-commit = "^3.2.2"
 
 
 [tool.poetry.dev-dependencies]
